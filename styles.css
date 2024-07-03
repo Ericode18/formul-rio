@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://cdn.dribbble.com/users/2123776/screenshots/10823052/media/d8fa6b9bc1f14ecc2cd7dfccd6c34d04.jpg')
+}
+
+#title {
+    font-family: serif;
+    font-size: 50px;
+    background:  linear-gradient(to right, #ff0000, #222222) 
+}
+
+#description {
+ background: linear-gradient(to right, #ff0000, #222222);
+    margin-bottom: 20px;
+    font-family: serif;
+    font-size: 30px
+}
+
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+    #survey-form {
+        padding: 10px;
+    }
+}

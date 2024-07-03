@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1 id="title">Formulário de matrícula</h1>
+    <p id="description">Formulário para realizar a matrícula na academia x</p>
+    <form id="survey-form">
+ <label id="name-label"> Nome completo <input type="text" id="name" required placeholder="insira seu nome completo"> </input> </label>
+   
+ <label id="email-label"> Email<input type="email" id="email" required placeholder="insira um email válido"> </input> </label>
+  <label id="number-label"> idade <input type="number" id="number" placeholder="idade" min="14" max="70" required </input> </label>
+  <select required id="dropdown">
+    <option value="escolhamodalidade"> Qual modalidade?</option>
+    <option value="Jiu-jitsu" > Jiu-Jitsu</option>
+    <option value="Muay-Thai"> Muay-thai</option>
+    <option value="MMA"> MMA</option>
+    <option value="Combo"> Combo</option>
+    </select>
+     <p>Qual o plano de pagamento?</p>
+     <input value="mensal" required type="radio"  name="plano">Mensal </input>
+   <p>   <input value="trimestral" required type="radio" name="plano">Trimestral </input>
+ <p>      <input value="semestral" required type="radio" name="plano">Semestral </input>
+    <p>  <input value="anual" required type="radio" name="plano">Anual </input>
+
+      <p>Qual/Quais horários deseja praticar?</p>
+
+   <p>   <Input type="checkbox" value="7h" > </input>7 Horas</p>
+
+    <p>   <Input type="checkbox"value="12h" > </input>12 Horas </p> 
+
+    <p>   <Input type="checkbox" value="18h" > </input>18 Horas</p>
+    
+    <p>   <Input type="checkbox" value="19:15h" > </input>19:15 Horas</p> 
+
+    <textarea id="objetivo" name="objetivo" placeholder="Poderia nos contar seu objetivo?"></textarea>
+
+    <button id="submit">Enviar</button>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+    
+</body>
+</html>
